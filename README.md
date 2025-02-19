@@ -41,7 +41,7 @@ Qualidade: 1 - Alta | 2 - Baixa: 1
 ✅ Download concluído: Nome do vídeo
 ```
 
-Contribuição:
+### Contribuição:
 
 Sinta-se à vontade para contribuir para o projeto criando um pull request ou abrindo uma issue.
 
