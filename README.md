@@ -1,3 +1,5 @@
+![YouToba Logo](YouToba_logo.png)
+
 ### Description for GitHub Repository: **YouToba Downloader**
 
 **YouToba Downloader** is a simple and effective tool for downloading videos and music from platforms like YouTube, converting them into MP3 or video formats. The standout feature of **YouToba Downloader** is that when downloading music in MP3 format, it automatically adds the video’s thumbnail as the cover image to the audio file, providing better organization and aesthetics for your music files.
