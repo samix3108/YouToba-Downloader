@@ -40,9 +40,6 @@ Qualidade: 1 - Alta | 2 - Baixa: 1
 ✅ Capa adicionada ao MP3:/teste1/teste2/teste3/Nome do vídeo
 ✅ Download concluído: Nome do vídeo
 ```
-### Contribuição:
-
-Sinta-se à vontade para contribuir para o projeto criando um pull request ou abrindo uma issue.
 
 ## ⚠️ Aviso Legal  
 Este script deve ser usado **somente para downloads pessoais** e dentro das diretrizes do YouTube Music. O desenvolvedor **não se responsabiliza** pelo uso inadequado do código.  
