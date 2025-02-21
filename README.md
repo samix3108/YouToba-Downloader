@@ -24,7 +24,7 @@
    ```
 3. Execute o script:
    ```
-   python YouTuba.py
+   python YouToba.py
    ```
 4. Insira o link do vídeo ou playlist quando solicitado.
 5. Escolha a qualidade do áudio (1 para alta, 2 para baixa).
