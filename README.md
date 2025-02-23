@@ -1,49 +1,49 @@
 ![YouToba Logo](YouToba_logo.png)
 
-**YouTuba Downloader** é uma ferramenta para baixar músicas de vídeos do YouTube com a possibilidade de escolher a qualidade do áudio e adicionar a capa (thumbnail) ao arquivo MP3. Desenvolvido em Python, ele utiliza as bibliotecas `yt-dlp`, `mutagen` e `requests` para fornecer uma experiência simples e prática para baixar e personalizar músicas.
+**YouTuba Downloader** is a tool for downloading music from YouTube videos with the ability to choose audio quality and add the thumbnail to the MP3 file. Developed in Python, it utilizes the `yt-dlp`, `mutagen`, and `requests` libraries to provide a simple and convenient experience for downloading and customizing music.
 
-### Funcionalidades:
-- **Baixar Áudio**: Permite baixar o áudio de vídeos ou playlists do YouTube, convertendo-os diretamente para o formato MP3.
-- **Escolha de Qualidade**: O usuário pode escolher entre duas qualidades de áudio: alta (320kbps) ou baixa (64kbps).
-- **Adicionar Capa ao MP3**: Após o download, o script baixa a imagem de capa (thumbnail) do vídeo e a adiciona ao arquivo MP3.
-- **Interface Simples**: A interface interativa via linha de comando permite que o usuário insira o link do vídeo/playlist e escolha a qualidade do áudio desejado.
+### Features:
+- **Download Audio**: Allows downloading audio from YouTube videos or playlists, converting them directly to MP3 format.
+- **Quality Choice**: Users can choose between two audio qualities: high (320kbps) or low (64kbps).
+- **Add Cover to MP3**: After downloading, the script fetches the video's thumbnail image and adds it to the MP3 file.
+- **Simple Interface**: The interactive command line interface lets users input the video/playlist link and choose the desired audio quality.
 
-### Requisitos:
+### Requirements:
 - Python 3.x
-- Bibliotecas Python:
-  - `yt-dlp` (para baixar vídeos do YouTube)
-  - `mutagen` (para manipulação de arquivos MP3)
-  - `requests` (para baixar a imagem da capa)
-  - `tqdm` (para exibir a barra de progresso)
+- Python Libraries:
+  - `yt-dlp` (for downloading YouTube videos)
+  - `mutagen` (for manipulating MP3 files)
+  - `requests` (for downloading the cover image)
+  - `tqdm` (for displaying the progress bar)
 
-### Como Usar:
-1. Clone o repositório ou baixe o código.
-2. Instale as dependências:
+### How to Use:
+1. Clone the repository or download the code.
+2. Install the dependencies:
    ```
    pip install yt-dlp mutagen requests tqdm
    ```
-3. Execute o script:
+3. Run the script:
    ```
    python YouToba.py
    ```
-4. Insira o link do vídeo ou playlist quando solicitado.
-5. Escolha a qualidade do áudio (1 para alta, 2 para baixa).
-6. O áudio será baixado como um arquivo MP3 e a capa será automaticamente adicionada, se disponível.
+4. Enter the video or playlist link when prompted.
+5. Choose the audio quality (1 for high, 2 for low).
+6. The audio will be downloaded as an MP3 file and the cover will be automatically added, if available.
 
-### Exemplo de uso:
+### Example Usage:
 ```
-Digite o link do vídeo/playlist: https://www.youtube.com/watch?v=abcd1234
-Qualidade: 1 - Alta | 2 - Baixa: 1
-🎵 Baixando...
+Enter the video/playlist link: https://www.youtube.com/watch?v=abcd1234
+Quality: 1 - High | 2 - Low: 1
+🎵 Downloading...
 [██████████████████████████████████████████████████████████████████████████████████] 100/100%
-✅ Conversão finalizada
-✅ Capa adicionada ao MP3:/teste1/teste2/teste3/Nome do vídeo
-✅ Download concluído: Nome do vídeo
+✅ Conversion complete
+✅ Cover added to MP3:/path1/path2/path3/Video name
+✅ Download completed: Video name
 ```
 
-### Contribuição:
+### Contribution:
 
-Sinta-se à vontade para contribuir para o projeto criando um pull request ou abrindo uma issue.
+Feel free to contribute to the project by creating a pull request or opening an issue.
 
-## ⚠️ Aviso Legal  
-Este script deve ser usado **somente para downloads pessoais** e dentro das diretrizes do YouTube. O desenvolvedor **não se responsabiliza** pelo uso inadequado do código.  
+## ⚠️ Legal Notice  
+This script should be used **only for personal downloads** and within YouTube's guidelines. The developer **is not responsible** for any misuse of the code.  
